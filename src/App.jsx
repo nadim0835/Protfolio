@@ -1,6 +1,7 @@
 import Header from "./Components/Header";
 import Navber from "./Components/Navber";
 import MySkill from "./Components/MySkill";
+import MyExperience from "./Components/MyExperience";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Navber />
       <Header />
       <MySkill />
+      <MyExperience/>
     </>
   );
 };
