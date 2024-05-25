@@ -5,7 +5,7 @@ import { FaPrayingHands } from "react-icons/fa";
 
 const MyExperience = () => {
   return (
-    <section className=" bg-primary pt-[60px] mt-[100px]">
+    <section className=" bg-primary pt-[60px] lg:pb-[100px] pb-[60px] mt-[100px]">
       <Container>
         <div className=" flex justify-center items-center">
           <h2 className=" font-Sora text-white text-[48px] leading-[56px] tracking-[-2%] ">
