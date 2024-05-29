@@ -93,7 +93,8 @@ const Letstalk = () => {
               user-friendly, and memorable interactive experiences.
             </p>
             <a
-              href="mailto:nadim0835@gmailcom"
+              href="mailto:nadim0835@gmail.com"
+              
               className=" font-Sora font-semibold text-[28px] tracking-[-2%] text-primary leading-[32px] duration-300 hover:text-scendary   "
             >
               nadim0835@gmail.com
