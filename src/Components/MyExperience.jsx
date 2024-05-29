@@ -8,7 +8,7 @@ const MyExperience = () => {
     <section className=" bg-primary pt-[60px] lg:pb-[100px] pb-[60px] mt-[100px]">
       <Container>
         <div className=" flex justify-center items-center">
-          <h2 className=" font-Sora text-white text-[48px] leading-[56px] tracking-[-2%] ">
+          <h2 className=" font-Sora text-white lg:text-[48px] text-[30px] leading-[56px] tracking-[-2%] ">
             My <span className=" font-extrabold">Experience</span>
           </h2>
         </div>

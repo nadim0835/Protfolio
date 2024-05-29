@@ -9,11 +9,11 @@ const Letstalk = () => {
     <section className=" lg:mt-[120px] md:mt-10 mb-[60px] ">
       <Container>
         <Flex
-          className={`  lg:gap-[108px] gap-5 lg:flex-row flex-col px-6 lg:px-4`}
+          className={` items-center md:items-stretch  lg:gap-[108px] gap-5 lg:flex-row flex-col px-6 lg:px-4`}
         >
           <div>
             <div
-              className="border-[2px]  border-solid border-primary md:w-[608px]  w-[343px] mb-5
+              className="border-[2px]  border-solid border-primary md:w-[608px]  w-[320px] mb-5
                 rounded-[4px]"
             >
               <input
@@ -23,7 +23,7 @@ const Letstalk = () => {
               />
             </div>
             <div
-              className=" border-[2px]  border-solid border-primary md:w-[608px]  w-[343px] mb-5
+              className=" border-[2px]  border-solid border-primary md:w-[608px]  w-[320px] mb-5
                 rounded-[4px]"
             >
               <input
@@ -33,7 +33,7 @@ const Letstalk = () => {
               />
             </div>
             <div
-              className=" border-[2px]  border-solid border-primary md:w-[608px]  w-[343px] mb-5
+              className=" border-[2px]  border-solid border-primary md:w-[608px]  w-[320px] mb-5
                 rounded-[4px]"
             >
               <input
@@ -43,7 +43,7 @@ const Letstalk = () => {
               />
             </div>
             <textarea
-              className="md:w-[608px]  rounded-[4px]  border-[2px] placeholder:text-[#71717A] border-primary w-[343px] px-6 py-[18px]   "
+              className="md:w-[608px]  rounded-[4px]  border-[2px] placeholder:text-[#71717A] border-primary w-[320px] px-6 py-[18px]   "
               placeholder="How can I help?*"
               name=""
               id=""

@@ -11,7 +11,7 @@ const MyProjects = () => {
     <section id="project" className=" bg-primary pt-[60px] lg:pb-[100px] pb-[60px]">
       <Container>
         <div className=" flex   justify-center md:justify-start lg:justify-center px-4 md:px-20 ">
-          <h2 className=" font-Sora text-white text-[48px] leading-[56px] tracking-[-2%] ">
+          <h2 className=" font-Sora text-white md:text-[48px] text-[40px] leading-[56px] tracking-[-2%] ">
             My <span className=" font-extrabold">Projects</span>
           </h2>
         </div>
