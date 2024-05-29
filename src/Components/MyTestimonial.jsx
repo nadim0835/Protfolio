@@ -52,8 +52,8 @@ const MyTestimonial = () => {
     <section className=" lg:mt-[60px] mb-5 lg:mb-[60px] mt-10">
       <Container>
         <main>
-          <div className=" flex justify-center ">
-            <h1 className=" font-Sora text-[48px] leading-[56px] tracking-[-2%] text-primary lg:mb-10  mb-4  ">
+          <div className=" flex justify-center items-center ">
+            <h1 className=" font-Sora md:text-[48px] text-[30px] leading-[56px] tracking-[-2%] text-primary lg:mb-10  mb-4  ">
               My <span className=" font-extrabold">Testimonial</span>
             </h1>
           </div>
