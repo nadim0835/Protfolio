@@ -42,7 +42,7 @@ const Navber = () => {
                 <li>
                   <a
                     className=" font-Sora font-semibold text-primary text-[20px] leading-6 tracking-[-2px] duration-300 hover:text-scendary"
-                    href="#"
+                    href="#project"
                   >
                     Project
                   </a>

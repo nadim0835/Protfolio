@@ -8,7 +8,7 @@ import { FiExternalLink } from "react-icons/fi";
 
 const MyProjects = () => {
   return (
-    <section className=" bg-primary pt-[60px] lg:pb-[100px] pb-[60px]">
+    <section id="project" className=" bg-primary pt-[60px] lg:pb-[100px] pb-[60px]">
       <Container>
         <div className=" flex   justify-center md:justify-start lg:justify-center px-4 md:px-20 ">
           <h2 className=" font-Sora text-white text-[48px] leading-[56px] tracking-[-2%] ">
