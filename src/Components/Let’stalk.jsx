@@ -4,9 +4,14 @@ import { FaFacebook } from "react-icons/fa6";
 import { FiLinkedin } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
 import { RiTwitterLine } from "react-icons/ri";
+import { SiMinutemailer } from "react-icons/si";
+import { IoIosCall } from "react-icons/io";
+
+
+
 const Letstalk = () => {
   return (
-    <section className=" lg:mt-[120px] md:mt-10 mb-[60px] ">
+    <section className=" lg:mt-[120px] md:mt-10 mb-[40px] ">
       <Container>
         <Flex
           className={` items-center md:items-stretch  lg:gap-[108px] gap-5 lg:flex-row flex-col px-6 lg:px-4`}
@@ -92,16 +97,23 @@ const Letstalk = () => {
               I seek to push the limits of creativity to create high-engaging,
               user-friendly, and memorable interactive experiences.
             </p>
+            <div className=" flex items-center gap-2 mb-2">
+            <SiMinutemailer className=" text-[35px]" />
             <a
               href="mailto:nadim0835@gmail.com"
-              
-              className=" font-Sora font-semibold text-[28px] tracking-[-2%] text-primary leading-[32px] duration-300 hover:text-scendary   "
+              className=" font-Sora font-semibold md:text-[28px] text-[23px] tracking-[-2%] text-primary leading-[32px] duration-300 hover:text-scendary   "
             >
               nadim0835@gmail.com
             </a>
-            <h1 className=" font-Sora font-semibold text-[28px] tracking-[-2%] text-primary leading-[32px]  mt-4">
-              +880162254197
+            </div>
+            <div className=" flex items-center gap-2">
+            <IoIosCall className=" text-[35px]" />
+            <h1
+              className=" font-Sora font-semibold md:text-[28px] text-[23px] tracking-[-2%] text-primary leading-[32px] duration-300 hover:text-scendary   "
+            >
+              +880176225419
             </h1>
+            </div>
           </div>
         </Flex>
       </Container>
