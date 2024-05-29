@@ -11,7 +11,7 @@ import { IoIosCall } from "react-icons/io";
 
 const Letstalk = () => {
   return (
-    <section className=" lg:mt-[120px] md:mt-10 mb-[40px] ">
+    <section id="Contact" className=" lg:mt-[120px] md:mt-10 mb-[40px] ">
       <Container>
         <Flex
           className={` items-center md:items-stretch  lg:gap-[108px] gap-5 lg:flex-row flex-col px-6 lg:px-4`}

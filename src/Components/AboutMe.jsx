@@ -5,7 +5,7 @@ import Me from "../assets/me.png";
 
 const AboutMe = () => {
   return (
-    <section className=" mt-[60px]">
+    <section id="aboutme" className=" mt-[60px]">
       <Container>
         <Flex className={`px-5 md:px-0  pb-[60px] lg:gap-[93px] lg:flex-row flex-col items-center lg:items-stretch`}>
           <div>

@@ -17,7 +17,7 @@ const Navber = () => {
           <a href=""> <Image src={logo} /></a>
           
           <div
-            className={`flex lg:items-center items-start gap-y-4 lg:gap-[243px] lg:flex-row flex-col absolute top-14 left-[50%] transform translate-x-[-50%] lg:translate-x-0 duration-300  ${
+            className={`flex lg:items-center items-start gap-y-4 lg:gap-[243px] lg:flex-row flex-col absolute top-14 left-[50%] transform translate-x-[-50%] lg:translate-x-0 duration-300 z-50   ${
               dDown ? "top-16" : "top-[-590px]"
             }  w-[94%] lg:w-fit   lg:static`}
           >
@@ -26,7 +26,7 @@ const Navber = () => {
                 <li>
                   <a
                     className=" font-Sora font-semibold text-primary text-[20px] leading-6 tracking-[-2px] duration-300 hover:text-scendary"
-                    href="#"
+                    href="#aboutme"
                   >
                     About Me
                   </a>
@@ -34,7 +34,7 @@ const Navber = () => {
                 <li>
                   <a
                     className=" font-Sora font-semibold text-primary text-[20px] leading-6 tracking-[-2px] duration-300 hover:text-scendary"
-                    href="#"
+                    href="#skills"
                   >
                     Skills
                   </a>
@@ -50,9 +50,9 @@ const Navber = () => {
                 <li>
                   <a
                     className=" font-Sora font-semibold text-primary text-[20px] leading-6 tracking-[-2px] duration-300 hover:text-scendary"
-                    href="#"
+                    href="#Contact"
                   >
-                    Contact me
+                    Contact<span className=" ml-1">Me</span>
                   </a>
                 </li>
               </ul>

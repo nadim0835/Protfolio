@@ -16,7 +16,7 @@ import { FaHtml5 } from "react-icons/fa";
 
 const MySkill = () => {
   return (
-    <section className=" mt-4 md:mt-[60px]">
+    <section id="skills" className=" mt-4 md:mt-[60px]">
       <Container>
         <h1 className=" font-Sora font-normal text-primary text-[48px] leading-[56px] tracking-[-2%] text-center ">
           My <span className=" font-extrabold">Skills</span>
